@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ремонт техники различных брендов</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+
+  <body>
+    <section class="services">
+      <h2 class="services__title">Ремонт техники различных брендов</h2>
+
+      <div class="services__container">
+        <div class="services__list swiper">
+          <div class="services__items swiper-wrapper">
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/lenovo.svg" alt="Lenovo" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/samsung.svg" alt="Samsung" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/apple.svg" alt="Apple" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/bosch.svg" alt="Bosch" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/hp.svg" alt="HP" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/acer.svg" alt="Acer" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/viewSonic.svg" alt="ViewSonic" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide">
+              <button class="services__brand">
+                <img src="src/assets/icons/sony.svg" alt="Sony" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide services__item--hidden">
+              <button class="services__brand">
+                <img src="src/assets/icons/lenovo.svg" alt="Lenovo" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide services__item--hidden">
+              <button class="services__brand">
+                <img src="src/assets/icons/samsung.svg" alt="Samsung" />
+              </button>
+            </div>
+            <div class="services__item swiper-slide services__item--hidden">
+              <button class="services__brand">
+                <img src="src/assets/icons/apple.svg" alt="Apple" />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <button class="services__toggle" type="button">
+          <img
+            src="src/assets/icons/expand.svg"
+            alt="expand"
+            class="services__icon services__icon--expand"
+          />
+          <img
+            src="src/assets/icons/collapse.svg"
+            alt="collapse"
+            class="services__icon services__icon--collapse"
+          />
+          <span class="services__toggle-text">Показать все</span>
+        </button>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
